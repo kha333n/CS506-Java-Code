@@ -48,7 +48,7 @@ public class Student {
     }
 
     // Copy Constructor for a new student
-    public Student(Student s) {
+    public Student(Students s) {
         name = s.name;
         rollNo = s.rollNo;
         countStudents += 1;
